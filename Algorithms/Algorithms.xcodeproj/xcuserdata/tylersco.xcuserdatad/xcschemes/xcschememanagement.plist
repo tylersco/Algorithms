@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MaxSubarray.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>MergeSort.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,6 +32,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FB4C63FB1CFF9D76007AD880</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FB75DD1D1CFD14DF004C11EE</key>
 		<dict>
 			<key>primary</key>

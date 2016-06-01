@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4C64051CFF9DA0007AD880 /* MaxSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */; };
 		FB75DD351CFD162F004C11EE /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */; };
 		FB75DD371CFD170D004C11EE /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD361CFD170D004C11EE /* InsertionSort.cpp */; };
 		FB75DD421CFD1B7F004C11EE /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD411CFD1B7F004C11EE /* BubbleSort.cpp */; };
@@ -14,6 +15,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		FB4C63FF1CFF9D76007AD880 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		FB75DD1C1CFD14DF004C11EE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB4C64031CFF9D76007AD880 /* MaxSubarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MaxSubarray; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxSubarray.cpp; sourceTree = "<group>"; };
 		FB75DD1E1CFD14DF004C11EE /* InsertionSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InsertionSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
 		FB75DD301CFD14F4004C11EE /* SelectionSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SelectionSort; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +76,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FB4C63FE1CFF9D76007AD880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB75DD1B1CFD14DF004C11EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,6 +129,7 @@
 				FB75DD301CFD14F4004C11EE /* SelectionSort */,
 				FB75DD401CFD1B4E004C11EE /* BubbleSort */,
 				FB75DD4B1CFD200E004C11EE /* MergeSort */,
+				FB4C64031CFF9D76007AD880 /* MaxSubarray */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +141,7 @@
 				FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */,
 				FB75DD411CFD1B7F004C11EE /* BubbleSort.cpp */,
 				FB75DD4C1CFD2032004C11EE /* MergeSort.cpp */,
+				FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -128,6 +149,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FB4C63FB1CFF9D76007AD880 /* MaxSubarray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4C64001CFF9D76007AD880 /* Build configuration list for PBXNativeTarget "MaxSubarray" */;
+			buildPhases = (
+				FB4C63FC1CFF9D76007AD880 /* Sources */,
+				FB4C63FE1CFF9D76007AD880 /* Frameworks */,
+				FB4C63FF1CFF9D76007AD880 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxSubarray;
+			productName = Algorithms;
+			productReference = FB4C64031CFF9D76007AD880 /* MaxSubarray */;
+			productType = "com.apple.product-type.tool";
+		};
 		FB75DD1D1CFD14DF004C11EE /* InsertionSort */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB75DD251CFD14DF004C11EE /* Build configuration list for PBXNativeTarget "InsertionSort" */;
@@ -226,11 +264,20 @@
 				FB75DD281CFD14F4004C11EE /* SelectionSort */,
 				FB75DD381CFD1B4E004C11EE /* BubbleSort */,
 				FB75DD431CFD200E004C11EE /* MergeSort */,
+				FB4C63FB1CFF9D76007AD880 /* MaxSubarray */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FB4C63FC1CFF9D76007AD880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4C64051CFF9DA0007AD880 /* MaxSubarray.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB75DD1A1CFD14DF004C11EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,6 +313,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		FB4C64011CFF9D76007AD880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB4C64021CFF9D76007AD880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FB75DD231CFD14DF004C11EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -406,6 +467,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FB4C64001CFF9D76007AD880 /* Build configuration list for PBXNativeTarget "MaxSubarray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4C64011CFF9D76007AD880 /* Debug */,
+				FB4C64021CFF9D76007AD880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FB75DD191CFD14DF004C11EE /* Build configuration list for PBXProject "Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -422,6 +492,7 @@
 				FB75DD271CFD14DF004C11EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB75DD2D1CFD14F4004C11EE /* Build configuration list for PBXNativeTarget "SelectionSort" */ = {
 			isa = XCConfigurationList;
