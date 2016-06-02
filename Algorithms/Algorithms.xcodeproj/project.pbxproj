@@ -65,6 +65,10 @@
 /* Begin PBXFileReference section */
 		FB4C64031CFF9D76007AD880 /* MaxSubarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MaxSubarray; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxSubarray.cpp; sourceTree = "<group>"; };
+		FB4C64071CFFB58A007AD880 /* MaxHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxHeap.cpp; sourceTree = "<group>"; };
+		FB4C64081CFFB58A007AD880 /* MaxHeap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxHeap.hpp; sourceTree = "<group>"; };
+		FB4C64101CFFBDAA007AD880 /* MinHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinHeap.cpp; sourceTree = "<group>"; };
+		FB4C64111CFFBDAA007AD880 /* MinHeap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinHeap.hpp; sourceTree = "<group>"; };
 		FB75DD1E1CFD14DF004C11EE /* InsertionSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InsertionSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
 		FB75DD301CFD14F4004C11EE /* SelectionSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SelectionSort; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +118,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB4C64061CFFB559007AD880 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FB4C64081CFFB58A007AD880 /* MaxHeap.hpp */,
+				FB4C64111CFFBDAA007AD880 /* MinHeap.hpp */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		FB4C64091CFFBA93007AD880 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				FB75DD361CFD170D004C11EE /* InsertionSort.cpp */,
+				FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */,
+				FB75DD411CFD1B7F004C11EE /* BubbleSort.cpp */,
+				FB75DD4C1CFD2032004C11EE /* MergeSort.cpp */,
+			);
+			name = Sorting;
+			sourceTree = "<group>";
+		};
+		FB4C640A1CFFBAD6007AD880 /* DivideConquer */ = {
+			isa = PBXGroup;
+			children = (
+				FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */,
+			);
+			name = DivideConquer;
+			sourceTree = "<group>";
+		};
+		FB4C640B1CFFBAF0007AD880 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				FB4C64071CFFB58A007AD880 /* MaxHeap.cpp */,
+				FB4C64101CFFBDAA007AD880 /* MinHeap.cpp */,
+			);
+			name = DataStructures;
+			sourceTree = "<group>";
+		};
 		FB75DD151CFD14DF004C11EE = {
 			isa = PBXGroup;
 			children = (
@@ -137,11 +178,10 @@
 		FB75DD201CFD14DF004C11EE /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				FB75DD361CFD170D004C11EE /* InsertionSort.cpp */,
-				FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */,
-				FB75DD411CFD1B7F004C11EE /* BubbleSort.cpp */,
-				FB75DD4C1CFD2032004C11EE /* MergeSort.cpp */,
-				FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */,
+				FB4C640B1CFFBAF0007AD880 /* DataStructures */,
+				FB4C640A1CFFBAD6007AD880 /* DivideConquer */,
+				FB4C64091CFFBA93007AD880 /* Sorting */,
+				FB4C64061CFFB559007AD880 /* include */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -411,6 +451,10 @@
 		FB75DD261CFD14DF004C11EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_CFLAGS = (
+					"-I",
+					./include,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -418,6 +462,10 @@
 		FB75DD271CFD14DF004C11EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_CFLAGS = (
+					"-I",
+					./include,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
