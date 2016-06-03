@@ -12,6 +12,8 @@
 		FB75DD371CFD170D004C11EE /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD361CFD170D004C11EE /* InsertionSort.cpp */; };
 		FB75DD421CFD1B7F004C11EE /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD411CFD1B7F004C11EE /* BubbleSort.cpp */; };
 		FB75DD4D1CFD2032004C11EE /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD4C1CFD2032004C11EE /* MergeSort.cpp */; };
+		FBD7BF8A1D00F67C00115347 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBD7BF801D00F64A00115347 /* HeapSort.cpp */; };
+		FBD7BF8B1D0105FD00115347 /* MaxHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4C64071CFFB58A007AD880 /* MaxHeap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,23 +62,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		FBD7BF851D00F65300115347 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FB4C64031CFF9D76007AD880 /* MaxSubarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MaxSubarray; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxSubarray.cpp; sourceTree = "<group>"; };
-		FB4C64071CFFB58A007AD880 /* MaxHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxHeap.cpp; sourceTree = "<group>"; };
-		FB4C64081CFFB58A007AD880 /* MaxHeap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxHeap.hpp; sourceTree = "<group>"; };
-		FB4C64101CFFBDAA007AD880 /* MinHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinHeap.cpp; sourceTree = "<group>"; };
-		FB4C64111CFFBDAA007AD880 /* MinHeap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinHeap.hpp; sourceTree = "<group>"; };
+		FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaxSubarray.cpp; path = DivideConquer/MaxSubarray.cpp; sourceTree = "<group>"; };
+		FB4C64071CFFB58A007AD880 /* MaxHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MaxHeap.cpp; path = DataStructures/MaxHeap.cpp; sourceTree = "<group>"; };
+		FB4C64081CFFB58A007AD880 /* MaxHeap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MaxHeap.hpp; path = include/MaxHeap.hpp; sourceTree = "<group>"; };
+		FB4C64101CFFBDAA007AD880 /* MinHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MinHeap.cpp; path = DataStructures/MinHeap.cpp; sourceTree = "<group>"; };
+		FB4C64111CFFBDAA007AD880 /* MinHeap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MinHeap.hpp; path = include/MinHeap.hpp; sourceTree = "<group>"; };
 		FB75DD1E1CFD14DF004C11EE /* InsertionSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InsertionSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSort.cpp; sourceTree = "<group>"; };
+		FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SelectionSort.cpp; path = Sorting/SelectionSort.cpp; sourceTree = "<group>"; };
 		FB75DD301CFD14F4004C11EE /* SelectionSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SelectionSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB75DD361CFD170D004C11EE /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
+		FB75DD361CFD170D004C11EE /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InsertionSort.cpp; path = Sorting/InsertionSort.cpp; sourceTree = "<group>"; };
 		FB75DD401CFD1B4E004C11EE /* BubbleSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BubbleSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB75DD411CFD1B7F004C11EE /* BubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
+		FB75DD411CFD1B7F004C11EE /* BubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BubbleSort.cpp; path = Sorting/BubbleSort.cpp; sourceTree = "<group>"; };
 		FB75DD4B1CFD200E004C11EE /* MergeSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MergeSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB75DD4C1CFD2032004C11EE /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		FB75DD4C1CFD2032004C11EE /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MergeSort.cpp; path = Sorting/MergeSort.cpp; sourceTree = "<group>"; };
+		FBD7BF801D00F64A00115347 /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HeapSort.cpp; path = Sorting/HeapSort.cpp; sourceTree = "<group>"; };
+		FBD7BF891D00F65300115347 /* HeapSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeapSort; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +128,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBD7BF841D00F65300115347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -134,6 +154,7 @@
 				FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */,
 				FB75DD411CFD1B7F004C11EE /* BubbleSort.cpp */,
 				FB75DD4C1CFD2032004C11EE /* MergeSort.cpp */,
+				FBD7BF801D00F64A00115347 /* HeapSort.cpp */,
 			);
 			name = Sorting;
 			sourceTree = "<group>";
@@ -171,6 +192,7 @@
 				FB75DD401CFD1B4E004C11EE /* BubbleSort */,
 				FB75DD4B1CFD200E004C11EE /* MergeSort */,
 				FB4C64031CFF9D76007AD880 /* MaxSubarray */,
+				FBD7BF891D00F65300115347 /* HeapSort */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,6 +296,23 @@
 			productReference = FB75DD4B1CFD200E004C11EE /* MergeSort */;
 			productType = "com.apple.product-type.tool";
 		};
+		FBD7BF811D00F65300115347 /* HeapSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD7BF861D00F65300115347 /* Build configuration list for PBXNativeTarget "HeapSort" */;
+			buildPhases = (
+				FBD7BF821D00F65300115347 /* Sources */,
+				FBD7BF841D00F65300115347 /* Frameworks */,
+				FBD7BF851D00F65300115347 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeapSort;
+			productName = Algorithms;
+			productReference = FBD7BF891D00F65300115347 /* HeapSort */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -305,6 +344,7 @@
 				FB75DD381CFD1B4E004C11EE /* BubbleSort */,
 				FB75DD431CFD200E004C11EE /* MergeSort */,
 				FB4C63FB1CFF9D76007AD880 /* MaxSubarray */,
+				FBD7BF811D00F65300115347 /* HeapSort */,
 			);
 		};
 /* End PBXProject section */
@@ -350,6 +390,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBD7BF821D00F65300115347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD7BF8B1D0105FD00115347 /* MaxHeap.cpp in Sources */,
+				FBD7BF8A1D00F67C00115347 /* HeapSort.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -370,7 +419,7 @@
 		FB75DD231CFD14DF004C11EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -404,6 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -414,7 +464,7 @@
 		FB75DD241CFD14DF004C11EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -442,6 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -512,6 +563,22 @@
 			};
 			name = Release;
 		};
+		FBD7BF871D00F65300115347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBD7BF881D00F65300115347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,6 +632,15 @@
 			buildConfigurations = (
 				FB75DD491CFD200E004C11EE /* Debug */,
 				FB75DD4A1CFD200E004C11EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD7BF861D00F65300115347 /* Build configuration list for PBXNativeTarget "HeapSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD7BF871D00F65300115347 /* Debug */,
+				FBD7BF881D00F65300115347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
