@@ -20,8 +20,10 @@ MaxHeap::MaxHeap() {
 
 //Return the parent index for a given index in the array, i
 int MaxHeap::parent(int i) {
-    int parent = (i / 2) - 1;
-    return parent;
+    if(i % 2 == 0)
+        return (i / 2) - 1;
+    else
+        return i / 2;
 }
 
 //Return the index of the left child for a given index in the array, i

@@ -12,7 +12,6 @@
 #include <iostream>
 #include "MaxHeap.hpp"
 
-
 void HeapSort(MaxHeap *maxHeap) {
     
     //While we still have values to sort

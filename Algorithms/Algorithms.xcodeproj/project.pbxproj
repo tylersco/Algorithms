@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB082AEF1D08FA7F00621ECC /* MinHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4C64101CFFBDAA007AD880 /* MinHeap.cpp */; };
 		FB4C64051CFF9DA0007AD880 /* MaxSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */; };
 		FB75DD351CFD162F004C11EE /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */; };
 		FB75DD371CFD170D004C11EE /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD361CFD170D004C11EE /* InsertionSort.cpp */; };
@@ -74,6 +75,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB082AEC1D08F69000621ECC /* MinPriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinPriorityQueue.cpp; sourceTree = "<group>"; };
+		FB082AED1D08F69000621ECC /* MinPriorityQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinPriorityQueue.hpp; sourceTree = "<group>"; };
 		FB4C64031CFF9D76007AD880 /* MaxSubarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MaxSubarray; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaxSubarray.cpp; path = DivideConquer/MaxSubarray.cpp; sourceTree = "<group>"; };
 		FB4C64071CFFB58A007AD880 /* MaxHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MaxHeap.cpp; path = DataStructures/MaxHeap.cpp; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 		FB75DD4C1CFD2032004C11EE /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MergeSort.cpp; path = Sorting/MergeSort.cpp; sourceTree = "<group>"; };
 		FBD7BF801D00F64A00115347 /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HeapSort.cpp; path = Sorting/HeapSort.cpp; sourceTree = "<group>"; };
 		FBD7BF891D00F65300115347 /* HeapSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeapSort; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDDA8F31D04C7B200BAEBDB /* MaxPriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MaxPriorityQueue.cpp; path = include/MaxPriorityQueue.cpp; sourceTree = "<group>"; };
+		FBDDA8F41D04C7B200BAEBDB /* MaxPriorityQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MaxPriorityQueue.hpp; path = include/MaxPriorityQueue.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +148,8 @@
 			children = (
 				FB4C64081CFFB58A007AD880 /* MaxHeap.hpp */,
 				FB4C64111CFFBDAA007AD880 /* MinHeap.hpp */,
+				FBDDA8F41D04C7B200BAEBDB /* MaxPriorityQueue.hpp */,
+				FB082AED1D08F69000621ECC /* MinPriorityQueue.hpp */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -172,6 +179,8 @@
 			children = (
 				FB4C64071CFFB58A007AD880 /* MaxHeap.cpp */,
 				FB4C64101CFFBDAA007AD880 /* MinHeap.cpp */,
+				FBDDA8F31D04C7B200BAEBDB /* MaxPriorityQueue.cpp */,
+				FB082AEC1D08F69000621ECC /* MinPriorityQueue.cpp */,
 			);
 			name = DataStructures;
 			sourceTree = "<group>";
@@ -396,6 +405,7 @@
 			files = (
 				FBD7BF8B1D0105FD00115347 /* MaxHeap.cpp in Sources */,
 				FBD7BF8A1D00F67C00115347 /* HeapSort.cpp in Sources */,
+				FB082AEF1D08FA7F00621ECC /* MinHeap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
