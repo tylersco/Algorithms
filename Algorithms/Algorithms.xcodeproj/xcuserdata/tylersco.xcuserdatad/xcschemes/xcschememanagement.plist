@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>OrderStatisticSelection.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>QuickSort.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>FB4C63FB1CFF9D76007AD880</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB4E642A1D0E28EF003898B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

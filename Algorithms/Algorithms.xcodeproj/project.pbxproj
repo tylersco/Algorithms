@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FB082AEF1D08FA7F00621ECC /* MinHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4C64101CFFBDAA007AD880 /* MinHeap.cpp */; };
 		FB4C64051CFF9DA0007AD880 /* MaxSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */; };
+		FB4E64331D0E2911003898B4 /* OrderStatisticSelection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4E64291D0E271A003898B4 /* OrderStatisticSelection.cpp */; };
 		FB565EE61D0C8C6C000659CD /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB565EDA1D0C8AFA000659CD /* QuickSort.cpp */; };
 		FB75DD351CFD162F004C11EE /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD211CFD14DF004C11EE /* SelectionSort.cpp */; };
 		FB75DD371CFD170D004C11EE /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD361CFD170D004C11EE /* InsertionSort.cpp */; };
@@ -20,6 +21,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FB4C63FF1CFF9D76007AD880 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FB4E642E1D0E28EF003898B4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -93,6 +103,8 @@
 		FB4C64081CFFB58A007AD880 /* MaxHeap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MaxHeap.hpp; path = include/MaxHeap.hpp; sourceTree = "<group>"; };
 		FB4C64101CFFBDAA007AD880 /* MinHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MinHeap.cpp; path = DataStructures/MinHeap.cpp; sourceTree = "<group>"; };
 		FB4C64111CFFBDAA007AD880 /* MinHeap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MinHeap.hpp; path = include/MinHeap.hpp; sourceTree = "<group>"; };
+		FB4E64291D0E271A003898B4 /* OrderStatisticSelection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OrderStatisticSelection.cpp; path = DivideConquer/OrderStatisticSelection.cpp; sourceTree = "<group>"; };
+		FB4E64321D0E28EF003898B4 /* OrderStatisticSelection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OrderStatisticSelection; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB565EDA1D0C8AFA000659CD /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QuickSort.cpp; path = Sorting/QuickSort.cpp; sourceTree = "<group>"; };
 		FB565EE51D0C8C53000659CD /* QuickSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuickSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB75DD1E1CFD14DF004C11EE /* InsertionSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InsertionSort; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +123,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		FB4C63FE1CFF9D76007AD880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4E642D1D0E28EF003898B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				FB4C64041CFF9DA0007AD880 /* MaxSubarray.cpp */,
+				FB4E64291D0E271A003898B4 /* OrderStatisticSelection.cpp */,
 			);
 			name = DivideConquer;
 			sourceTree = "<group>";
@@ -223,6 +243,7 @@
 				FB4C64031CFF9D76007AD880 /* MaxSubarray */,
 				FBD7BF891D00F65300115347 /* HeapSort */,
 				FB565EE51D0C8C53000659CD /* QuickSort */,
+				FB4E64321D0E28EF003898B4 /* OrderStatisticSelection */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,6 +277,23 @@
 			name = MaxSubarray;
 			productName = Algorithms;
 			productReference = FB4C64031CFF9D76007AD880 /* MaxSubarray */;
+			productType = "com.apple.product-type.tool";
+		};
+		FB4E642A1D0E28EF003898B4 /* OrderStatisticSelection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4E642F1D0E28EF003898B4 /* Build configuration list for PBXNativeTarget "OrderStatisticSelection" */;
+			buildPhases = (
+				FB4E642B1D0E28EF003898B4 /* Sources */,
+				FB4E642D1D0E28EF003898B4 /* Frameworks */,
+				FB4E642E1D0E28EF003898B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderStatisticSelection;
+			productName = Algorithms;
+			productReference = FB4E64321D0E28EF003898B4 /* OrderStatisticSelection */;
 			productType = "com.apple.product-type.tool";
 		};
 		FB565EDB1D0C8C53000659CD /* QuickSort */ = {
@@ -393,6 +431,7 @@
 				FB4C63FB1CFF9D76007AD880 /* MaxSubarray */,
 				FBD7BF811D00F65300115347 /* HeapSort */,
 				FB565EDB1D0C8C53000659CD /* QuickSort */,
+				FB4E642A1D0E28EF003898B4 /* OrderStatisticSelection */,
 			);
 		};
 /* End PBXProject section */
@@ -403,6 +442,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB4C64051CFF9DA0007AD880 /* MaxSubarray.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4E642B1D0E28EF003898B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4E64331D0E2911003898B4 /* OrderStatisticSelection.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +516,22 @@
 		FB4C64021CFF9D76007AD880 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB4E64301D0E28EF003898B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB4E64311D0E28EF003898B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -660,6 +723,15 @@
 			buildConfigurations = (
 				FB4C64011CFF9D76007AD880 /* Debug */,
 				FB4C64021CFF9D76007AD880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4E642F1D0E28EF003898B4 /* Build configuration list for PBXNativeTarget "OrderStatisticSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4E64301D0E28EF003898B4 /* Debug */,
+				FB4E64311D0E28EF003898B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
