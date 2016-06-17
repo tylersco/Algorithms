@@ -129,7 +129,7 @@
 		FBD7BF801D00F64A00115347 /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HeapSort.cpp; path = Sorting/HeapSort.cpp; sourceTree = "<group>"; };
 		FBD7BF891D00F65300115347 /* HeapSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeapSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDB84EB1D1377B80061E6EF /* Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Stack.cpp; path = DataStructures/Stack.cpp; sourceTree = "<group>"; };
-		FBDB84EC1D1377B80061E6EF /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Stack.hpp; path = DataStructures/Stack.hpp; sourceTree = "<group>"; };
+		FBDB84EC1D1377B80061E6EF /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Stack.hpp; path = include/Stack.hpp; sourceTree = "<group>"; };
 		FBDB84EE1D137B070061E6EF /* StackTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StackTest.cpp; path = Algorithms/Tests/StackTest.cpp; sourceTree = "<group>"; };
 		FBDB84F71D137B2F0061E6EF /* StackTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StackTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDDA8F31D04C7B200BAEBDB /* MaxPriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MaxPriorityQueue.cpp; path = DataStructures/MaxPriorityQueue.cpp; sourceTree = "<group>"; };
