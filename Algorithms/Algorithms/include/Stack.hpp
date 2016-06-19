@@ -15,16 +15,22 @@
 #include <stdio.h>
 #include <iostream>
 
+struct ElementType {
+    int key;
+};
+
+typedef ElementType * ElementTypePtr;
+
 class Stack {
 private:
-    int *stack;     //Pointer to stack array
+    ElementTypePtr *stack;     //Pointer to stack array
     int stackSize;  //Size of the array
     int stackTop;   //Index for top of the stack
 public:
-    Stack(int n);       //Constructor
+    Stack(int);       //Constructor
     bool StackEmpty();  //Check if the stack is empty
-    void push(int x);   //Push a value onto the stack
-    int pop();          //Pop a value off of the stack
+    void push(ElementTypePtr);   //Push a value onto the stack
+    ElementTypePtr pop();          //Pop a value off of the stack
     void print();       //Print the current state of the stack
 };
 

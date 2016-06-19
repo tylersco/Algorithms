@@ -16,13 +16,25 @@
 
 int main(int argc, const char * argv[]) {
     Stack stack(10);
+    ElementTypePtr e;
     
     stack.print();
     
     for(int i = 0; i < 10; i++) {
-        stack.push(i);
+        e = new ElementType;
+        e->key = i;
+        stack.push(e);
         stack.print();
     }
+    
+    stack.pop();
+    stack.pop();
+    
+    e = new ElementType;
+    e->key = 5;
+    
+    stack.push(e);
+    stack.print();
     
     for(int i = 0; i < 10; i++) {
         stack.pop();

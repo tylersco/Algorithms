@@ -14,7 +14,7 @@
 
 //Constructor
 Stack::Stack(int n) {
-    stack = new int[n];
+    stack = new ElementTypePtr[n];
     stackSize = n;
     stackTop = 0;
 }
@@ -26,30 +26,37 @@ bool Stack::StackEmpty() {
         return false;
 }
 
-void Stack::push(int x) {
-    if(stackTop >= stackSize)
-        throw "Stack overflow error\n";
+void Stack::push(ElementTypePtr e) {
+    if(stackTop >= stackSize) {
+        std::cout << "Stack overflow error\n";
+        return;
+    }
     else {
-        stack[stackTop] = x;
+        stack[stackTop] = e;
         stackTop++;
     }
 }
 
-int Stack::pop() {
+ElementTypePtr Stack::pop() {
     if(!StackEmpty()) {
         stackTop--;
         return stack[stackTop];
     }
-    else
-        throw "Stack underflow error\n";
+    else {
+        std::cout << "Stack underflow error\n";
+        return NULL;
+    }
 }
 
 void Stack::print() {
     if(!StackEmpty()) {
+        std::cout << "[";
         for(int i = 0; i < stackTop; i++)
-            std::cout << stack[i] << " ";
-        std::cout << "\n";
+            if(i != stackTop - 1)
+                std::cout << stack[i]->key << ", ";
+            else
+                std::cout << stack[i]->key << "]\n";
     }
     else
-        std::cout << "Stack is empty.\n";
+        std::cout << "[]\n";
 }
