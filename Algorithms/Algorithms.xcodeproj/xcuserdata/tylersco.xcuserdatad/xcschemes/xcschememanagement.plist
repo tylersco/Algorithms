@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>QueueTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>QuickSort.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -83,6 +88,11 @@
 			<true/>
 		</dict>
 		<key>FB75DD431CFD200E004C11EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FBA23B361D14B7EB002001C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
