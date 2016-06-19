@@ -28,7 +28,6 @@ bool Stack::StackEmpty() {
 
 void Stack::push(ElementTypePtr e) {
     if(stackTop >= stackSize) {
-        std::cout << "Stack overflow error\n";
         return;
     }
     else {
@@ -43,7 +42,6 @@ ElementTypePtr Stack::pop() {
         return stack[stackTop];
     }
     else {
-        std::cout << "Stack underflow error\n";
         return NULL;
     }
 }
