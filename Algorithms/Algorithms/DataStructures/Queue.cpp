@@ -27,7 +27,7 @@ int Queue::incr(int n) {
 }
 
 bool Queue::isEmpty() {
-    if(front == rear and queue[front] == NULL)
+    if(front == rear && queue[front] == NULL)
         return true;
     else
         return false;
@@ -35,6 +35,7 @@ bool Queue::isEmpty() {
 
 //Enqueue (insert) an element into the circular queue
 void Queue::enqueue(ElementTypePtr e) {
+    
     if(incr(rear) == front) {
         return;
     }
@@ -46,12 +47,14 @@ void Queue::enqueue(ElementTypePtr e) {
     
     rear = incr(rear);
     queue[rear] = e;
+
     return;
     
 }
 
 //Dequeue (delete) an element from the circular queue
 ElementTypePtr  Queue::dequeue() {
+    
     if(isEmpty()) {
         return NULL;
     }
@@ -64,6 +67,7 @@ ElementTypePtr  Queue::dequeue() {
     
     ElementTypePtr val = queue[front];
     front = incr(front);
+
     return val;
 }
 
@@ -75,11 +79,8 @@ void Queue::print() {
     }
     
     std::cout << "[";
-    for(int i = front; i <= rear; i++) {
-        if(i != rear)
-            std::cout << queue[i]->key << ", ";
-        else
-            std::cout << queue[i]->key;
+    for(int i = front; i != rear; i = incr(i)) {
+        std::cout << queue[i]->key << ", ";
     }
-    std::cout << "]\n";
+    std::cout << queue[rear]->key << "]\n";
 }
