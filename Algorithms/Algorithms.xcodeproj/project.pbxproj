@@ -15,13 +15,16 @@
 		FB75DD371CFD170D004C11EE /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD361CFD170D004C11EE /* InsertionSort.cpp */; };
 		FB75DD421CFD1B7F004C11EE /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD411CFD1B7F004C11EE /* BubbleSort.cpp */; };
 		FB75DD4D1CFD2032004C11EE /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB75DD4C1CFD2032004C11EE /* MergeSort.cpp */; };
-		FBA23B391D14B7EB002001C5 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBDB84EB1D1377B80061E6EF /* Stack.cpp */; };
 		FBA23B401D14B95B002001C5 /* QueueTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBA23B351D14B62D002001C5 /* QueueTest.cpp */; };
 		FBA23B411D14B95E002001C5 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBA23B331D14B141002001C5 /* Queue.cpp */; };
+		FBA23B451D176297002001C5 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBDB84EB1D1377B80061E6EF /* Stack.cpp */; };
+		FBA23B4E1D1762D7002001C5 /* Queue2Stacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBA23B421D176042002001C5 /* Queue2Stacks.cpp */; };
 		FBD7BF8A1D00F67C00115347 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBD7BF801D00F64A00115347 /* HeapSort.cpp */; };
 		FBD7BF8B1D0105FD00115347 /* MaxHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4C64071CFFB58A007AD880 /* MaxHeap.cpp */; };
 		FBDB84F81D137B470061E6EF /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBDB84EB1D1377B80061E6EF /* Stack.cpp */; };
 		FBDB84F91D137B610061E6EF /* StackTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBDB84EE1D137B070061E6EF /* StackTest.cpp */; };
+		FBDEB66A1D288CBD005B17E3 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBA23B331D14B141002001C5 /* Queue.cpp */; };
+		FBDEB66B1D288CC0005B17E3 /* Stack2Queues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBDEB65F1D288C75005B17E3 /* Stack2Queues.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +100,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		FBA23B491D176297002001C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		FBD7BF851D00F65300115347 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,6 +119,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		FBDB84F31D137B2F0061E6EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FBDEB6651D288CA8005B17E3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -142,6 +163,8 @@
 		FBA23B341D14B141002001C5 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Queue.hpp; path = include/Queue.hpp; sourceTree = "<group>"; };
 		FBA23B351D14B62D002001C5 /* QueueTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = QueueTest.cpp; path = Algorithms/Tests/QueueTest.cpp; sourceTree = "<group>"; };
 		FBA23B3F1D14B7EB002001C5 /* QueueTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QueueTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA23B421D176042002001C5 /* Queue2Stacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Queue2Stacks.cpp; path = Algorithms/Tests/Queue2Stacks.cpp; sourceTree = "<group>"; };
+		FBA23B4D1D176297002001C5 /* Queue2Stacks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Queue2Stacks; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD7BF801D00F64A00115347 /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HeapSort.cpp; path = Sorting/HeapSort.cpp; sourceTree = "<group>"; };
 		FBD7BF891D00F65300115347 /* HeapSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeapSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDB84EB1D1377B80061E6EF /* Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Stack.cpp; path = DataStructures/Stack.cpp; sourceTree = "<group>"; };
@@ -150,6 +173,8 @@
 		FBDB84F71D137B2F0061E6EF /* StackTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StackTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDDA8F31D04C7B200BAEBDB /* MaxPriorityQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MaxPriorityQueue.cpp; path = DataStructures/MaxPriorityQueue.cpp; sourceTree = "<group>"; };
 		FBDDA8F41D04C7B200BAEBDB /* MaxPriorityQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MaxPriorityQueue.hpp; path = include/MaxPriorityQueue.hpp; sourceTree = "<group>"; };
+		FBDEB65F1D288C75005B17E3 /* Stack2Queues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Stack2Queues.cpp; path = Algorithms/Tests/Stack2Queues.cpp; sourceTree = "<group>"; };
+		FBDEB6691D288CA8005B17E3 /* Stack2Queues */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack2Queues; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +234,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBA23B481D176297002001C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FBD7BF841D00F65300115347 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +249,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FBDB84F21D137B2F0061E6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDEB6641D288CA8005B17E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,6 +334,8 @@
 				FB4E64321D0E28EF003898B4 /* OrderStatisticSelection */,
 				FBDB84F71D137B2F0061E6EF /* StackTest */,
 				FBA23B3F1D14B7EB002001C5 /* QueueTest */,
+				FBA23B4D1D176297002001C5 /* Queue2Stacks */,
+				FBDEB6691D288CA8005B17E3 /* Stack2Queues */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -316,6 +357,8 @@
 			children = (
 				FBDB84EE1D137B070061E6EF /* StackTest.cpp */,
 				FBA23B351D14B62D002001C5 /* QueueTest.cpp */,
+				FBA23B421D176042002001C5 /* Queue2Stacks.cpp */,
+				FBDEB65F1D288C75005B17E3 /* Stack2Queues.cpp */,
 			);
 			name = Tests;
 			path = ..;
@@ -460,6 +503,23 @@
 			productReference = FBA23B3F1D14B7EB002001C5 /* QueueTest */;
 			productType = "com.apple.product-type.tool";
 		};
+		FBA23B431D176297002001C5 /* Queue2Stacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA23B4A1D176297002001C5 /* Build configuration list for PBXNativeTarget "Queue2Stacks" */;
+			buildPhases = (
+				FBA23B441D176297002001C5 /* Sources */,
+				FBA23B481D176297002001C5 /* Frameworks */,
+				FBA23B491D176297002001C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Queue2Stacks;
+			productName = Algorithms;
+			productReference = FBA23B4D1D176297002001C5 /* Queue2Stacks */;
+			productType = "com.apple.product-type.tool";
+		};
 		FBD7BF811D00F65300115347 /* HeapSort */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBD7BF861D00F65300115347 /* Build configuration list for PBXNativeTarget "HeapSort" */;
@@ -492,6 +552,23 @@
 			name = StackTest;
 			productName = Algorithms;
 			productReference = FBDB84F71D137B2F0061E6EF /* StackTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		FBDEB6601D288CA8005B17E3 /* Stack2Queues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDEB6661D288CA8005B17E3 /* Build configuration list for PBXNativeTarget "Stack2Queues" */;
+			buildPhases = (
+				FBDEB6611D288CA8005B17E3 /* Sources */,
+				FBDEB6641D288CA8005B17E3 /* Frameworks */,
+				FBDEB6651D288CA8005B17E3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stack2Queues;
+			productName = Algorithms;
+			productReference = FBDEB6691D288CA8005B17E3 /* Stack2Queues */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -530,6 +607,8 @@
 				FB4E642A1D0E28EF003898B4 /* OrderStatisticSelection */,
 				FBDB84EF1D137B2F0061E6EF /* StackTest */,
 				FBA23B361D14B7EB002001C5 /* QueueTest */,
+				FBA23B431D176297002001C5 /* Queue2Stacks */,
+				FBDEB6601D288CA8005B17E3 /* Stack2Queues */,
 			);
 		};
 /* End PBXProject section */
@@ -595,9 +674,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA23B391D14B7EB002001C5 /* Stack.cpp in Sources */,
 				FBA23B401D14B95B002001C5 /* QueueTest.cpp in Sources */,
 				FBA23B411D14B95E002001C5 /* Queue.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA23B441D176297002001C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA23B4E1D1762D7002001C5 /* Queue2Stacks.cpp in Sources */,
+				FBA23B451D176297002001C5 /* Stack.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +704,15 @@
 			files = (
 				FBDB84F91D137B610061E6EF /* StackTest.cpp in Sources */,
 				FBDB84F81D137B470061E6EF /* Stack.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDEB6611D288CA8005B17E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDEB66A1D288CBD005B17E3 /* Queue.cpp in Sources */,
+				FBDEB66B1D288CC0005B17E3 /* Stack2Queues.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -832,6 +928,22 @@
 			};
 			name = Release;
 		};
+		FBA23B4B1D176297002001C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBA23B4C1D176297002001C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FBD7BF871D00F65300115347 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -857,6 +969,22 @@
 			name = Debug;
 		};
 		FBDB84F61D137B2F0061E6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBDEB6671D288CA8005B17E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBDEB6681D288CA8005B17E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_CFLAGS = "";
@@ -948,6 +1076,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		FBA23B4A1D176297002001C5 /* Build configuration list for PBXNativeTarget "Queue2Stacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA23B4B1D176297002001C5 /* Debug */,
+				FBA23B4C1D176297002001C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FBD7BF861D00F65300115347 /* Build configuration list for PBXNativeTarget "HeapSort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -962,6 +1099,15 @@
 			buildConfigurations = (
 				FBDB84F51D137B2F0061E6EF /* Debug */,
 				FBDB84F61D137B2F0061E6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDEB6661D288CA8005B17E3 /* Build configuration list for PBXNativeTarget "Stack2Queues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDEB6671D288CA8005B17E3 /* Debug */,
+				FBDEB6681D288CA8005B17E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -19,6 +19,7 @@ Stack::Stack(int n) {
     stackTop = 0;
 }
 
+//Check if the stack is empty
 bool Stack::StackEmpty() {
     if(stackTop == 0)
         return true;
@@ -26,6 +27,7 @@ bool Stack::StackEmpty() {
         return false;
 }
 
+//Push (insert) element onto the stack
 void Stack::push(ElementTypePtr e) {
     if(stackTop >= stackSize) {
         return;
@@ -36,6 +38,7 @@ void Stack::push(ElementTypePtr e) {
     }
 }
 
+//Pop (delete) an element off of the stack
 ElementTypePtr Stack::pop() {
     if(!StackEmpty()) {
         stackTop--;
@@ -46,6 +49,7 @@ ElementTypePtr Stack::pop() {
     }
 }
 
+//Print the stack
 void Stack::print() {
     if(!StackEmpty()) {
         std::cout << "[";
