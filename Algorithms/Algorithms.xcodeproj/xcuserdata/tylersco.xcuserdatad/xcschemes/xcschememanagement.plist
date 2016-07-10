@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>LinkedListTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>MaxSubarray.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -98,6 +103,11 @@
 			<true/>
 		</dict>
 		<key>FB75DD431CFD200E004C11EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB7DF8A41D330E91006F75A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
